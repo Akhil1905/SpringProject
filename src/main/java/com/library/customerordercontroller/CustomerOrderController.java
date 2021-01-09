@@ -11,7 +11,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping(value= CustomerController.ENDPOINT)
+@RequestMapping(value= CustomerOrderController.ENDPOINT)
 public class CustomerOrderController {
 
     public static final String ENDPOINT="/CustomerOrder";

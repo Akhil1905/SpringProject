@@ -17,28 +17,30 @@ public class CustomerOrderEntity {
 
 
     private String orderName;
-//    Customer customerOrder;
-    public Integer getOrderId() {
 
+    private double size;
+
+    public double getSize() {
+        return size;
+    }
+
+    public void setSize(double size) {
+        this.size = size;
+    }
+
+    public Integer getOrderId() {
         return orderId;
     }
 
-    public void setOrderName(String orderName){
-        this.orderName=orderName;
-
+    public void setOrderId(Integer orderId) {
+        this.orderId = orderId;
     }
 
-
-    public String getOrderName(){
-
+    public String getOrderName() {
         return orderName;
     }
-//    public Customer getCustomerInfo(){
-//
-//        customerOrder=  new Customer();
-//        return customerOrder;
-//    }
 
-
-
+    public void setOrderName(String orderName) {
+        this.orderName = orderName;
+    }
 }

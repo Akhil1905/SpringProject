@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface CustomerOrderRepository extends CrudRepository<CustomerOrderEntity, Integer> {
 
-    CustomerOrderEntity findCustomerOrderById(Integer orderId);
+    CustomerOrderEntity findCustomerOrderByOrderId(Integer orderId);
 
 }
 
