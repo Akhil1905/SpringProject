@@ -1,4 +1,4 @@
-package com.library.com.library.customerorderrepository;
+package com.library.customerorderrepository;
 
 import com.library.customerorder.CustomerOrderEntity;
 import org.springframework.data.repository.CrudRepository;
@@ -10,3 +10,4 @@ public interface CustomerOrderRepository extends CrudRepository<CustomerOrderEnt
     CustomerOrderEntity findCustomerOrderById(Integer orderId);
 
 }
+

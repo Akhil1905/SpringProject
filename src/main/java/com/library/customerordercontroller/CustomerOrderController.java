@@ -1,16 +1,17 @@
-package com.library.controller;
+package com.library.customerordercontroller;
 
 
-import com.library.com.library.customerorderrepository.CustomerOrderRepository;
 
+import com.library.controller.CustomerController;
 import com.library.customerorder.CustomerOrderEntity;
+import com.library.customerorderrepository.CustomerOrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping(value=CustomerController.ENDPOINT)
+@RequestMapping(value= CustomerController.ENDPOINT)
 public class CustomerOrderController {
 
     public static final String ENDPOINT="/CustomerOrder";
@@ -35,3 +36,4 @@ public class CustomerOrderController {
 
 
 }
+
